@@ -45,7 +45,7 @@ python_files = ["test_*.py"]
 addopts = "-v --tb=short"
 
 [tool.coverage.run]
-source = ["src/drf_request_id"]
+source = ["drf_envelope"]
 command_line = "-m pytest"
 
 [tool.coverage.report]
