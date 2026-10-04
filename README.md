@@ -49,6 +49,7 @@ Raise domain errors anywhere:
 ```python
 from drf_envelope.handler import ApiError
 
+
 def checkout(cart):
     if cart.total > account.balance:
         raise ApiError(
